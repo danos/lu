@@ -1,0 +1,15 @@
+Source: lu
+Section: contrib/net
+Priority: extra
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+
+Package: lu
+Architecture: any
+Replaces: vyatta-opd (<< 0.2.4)
+Conflicts: vyatta-opd (<< 0.2.4)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Utility to switch loginuid
+ Provides a utility used to set the loginuid. Used for
+ command authorization.
